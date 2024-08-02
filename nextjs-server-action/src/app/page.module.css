@@ -1,0 +1,33 @@
+.container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.title {
+  font-size: xx-large;
+}
+
+.title:hover {
+  cursor: pointer;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.submitForm {
+  display: flex;
+  align-items: center;
+  gap : 16px;
+}
+
+.submitInput {
+  flex-grow: 1; /* flex-grow */
+  width: 100%; /* w-full */
+  padding: 0.25rem; /* p-1 (1 * 0.25rem) */
+  font-size: 1.5rem; /* text-2xl (1.25rem * 1.2 scaling factor) */
+  border-radius: 0.5rem; /* rounded-lg */
+}
